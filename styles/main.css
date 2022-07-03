@@ -73,7 +73,7 @@ section {
   min-height: 100vh;
 }
 
-section#post-1 {
+section#main-section {
   font-family: 'Titan One', cursive;
   font-size: 38px;
   background-color: #000024;
@@ -88,6 +88,11 @@ section#post-1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   min-height: 30vh;
+}
+
+section#post-1 {
+  background: #000024;
+  color: #E46993;
 }
 
 section#post-2 {
