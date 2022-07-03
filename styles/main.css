@@ -5,11 +5,11 @@
 }
 
 body {
-background-color: rgb(0, 0, 0);
+background-color: #000024;
 }
 
 #hero {
-    background-color: black;
+    background-color: #000024;
     background-image: url('https://img.tmstor.es/gunship/Album_Cover_1920x1080%20copy.jpg');
     background-size: cover;
     background-position: center center;
@@ -29,18 +29,29 @@ background-color: rgb(0, 0, 0);
   -moz-text-fill-color: transparent;
 }
 
-.navbar {
+    @media screen and (min-width: 380px) {
+     body { 
+      background-color: #000024;
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+/* Blog begins */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+
+
+nav {
   display: inline;
   width: 100%;
   overflow: auto;
   text-decoration: none;
   font-family: 'Titan One', cursive;
   font-size: 50px;
-  color: #ffaa00;
   transition: all 1s ease-in-out;
 }
 
-.navbar a {
+nav a {
   float: center;
   padding: 12px;
   transition: color 1.5s;
@@ -48,22 +59,73 @@ background-color: rgb(0, 0, 0);
   text-decoration: none;
   font-family: 'Titan One', cursive;
   font-size: 20px;
-  color: linear-gradient(45deg, #8400D6, #9341EA, #ff6600, #ffaa00);
   transition: all 1s ease-in-out;
   width: 20%;
 }
 
-.navbar:hover {
-  color: white;
+nav a:hover {
+  text-decoration: none;
   transition: ease-in;
   transition-duration: 0.1s;
 }
 
-    @media screen and (min-width: 380px) {
-     body { 
-      background-color: black;
-      font-size: 25px;
-      font-family: Arial, Helvetica, sans-serif;
-  }
+section {
+  min-height: 100vh;
+}
 
+section#sprint-1 {
+  font-family: 'Titan One', cursive;
+  font-size: 38px;
+  background-color: #000024;
+  background-image: url('https://img.tmstor.es/gunship/Album_Cover_1920x1080%20copy.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 300px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  min-height: 30vh;
+}
+
+section#sprint-2 {
+  background: #000024;
+  color: #E46993;
+}
+
+section#sprint-3 {
+  background: #000024;
+  color: #E46993;
+}
+
+section#sprint-4 {
+  background-color: #000024;
+  color: #E46993;
+}
+
+article {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
