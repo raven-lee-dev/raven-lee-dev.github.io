@@ -8,12 +8,6 @@ body {
 background-color: rgb(0, 0, 0);
 }
 
-h1 {
-  color: gray;
-  font-family: 'Titan One', cursive;
-  font-size: 38px;
-}
-
 #hero {
     background-color: black;
     background-image: url('https://img.tmstor.es/gunship/Album_Cover_1920x1080%20copy.jpg');
