@@ -73,7 +73,7 @@ section {
   min-height: 100vh;
 }
 
-section#sprint-1 {
+section#post-1 {
   font-family: 'Titan One', cursive;
   font-size: 38px;
   background-color: #000024;
@@ -90,17 +90,17 @@ section#sprint-1 {
   min-height: 30vh;
 }
 
-section#sprint-2 {
+section#post-2 {
   background: #000024;
   color: #E46993;
 }
 
-section#sprint-3 {
+section#post-3 {
   background: #000024;
   color: #E46993;
 }
 
-section#sprint-4 {
+section#post-4 {
   background-color: #000024;
   color: #E46993;
 }
