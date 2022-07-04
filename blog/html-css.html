@@ -20,19 +20,29 @@
     </article>
   </section>
   <nav>
-    <a href="#post-1" id="gradient-text">Page link 1</a>
-    <a href="#post-2" id="gradient-text">Page link 2</a>
-    <a href="#post-3" id="gradient-text">Page link 3</a>
-    <a href="#post-4" id="gradient-text">Page link 4</a>
+    <a href="#post-1" id="gradient-text">Block-level vs. Inline Elements</a>
+    <a href="#post-2" id="gradient-text">Default Display Properties</a>
+    <a href="#post-3" id="gradient-text">display: inline-block</a>
+    <a href="#post-4" id="gradient-text">display: inline</a>
   </nav>
 
   <section id="post-1">
     <article>
-      <h2>Header 2 Subtitle</h2>
+      <h2>Block-level vs. Inline Elements</h2>
       <br>
-      <p>Placeholder text</p>
+      <p>All HTML elements are comprimised of an HTML tag and its contents to produce an HTML element. HTML starting tags can
+      also have attributes assigned to them allowing for greater targeting and styling of the element using CSS selectors. HTML elements are
+      classified as block-level or inline elements and each has default display properties that can be specified using CSS.</p> 
       <br>
-      <a href="#">A link goes here</a>
+      <p>Examples of the default display properties for all w3c HTML tags have been tested here.</p>
+      <br>
+      <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="LdGOpp" data-user="avernikoz"
+        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/avernikoz/pen/LdGOpp">
+            all w3c element in TAG:DisplayByDefault</a> by Avernikoz (<a href="https://codepen.io/avernikoz">@avernikoz</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
       <br>
       <p></p>
 
@@ -42,9 +52,21 @@
   <section id="post-2">
 
     <article>
-      <h2>Header 2 Subtitle</h2>
+      <h2>display: inline-block</h2>
       <br>
-      <p>Placeholder text</p>
+      <p>Using display: inline-block elements gives you the ability to specify width, height, margin and padding values on the
+      element and avoid issues like line-breaks and overlapping. Using a span tag nested inside a paragraph will cause all
+      surrounding content to be pushed away from the box. Another useful feature of display: inline-blocks is that the
+      elements can be positioned alongside each other.<p> 
+      <br>
+            <p>display: inline-blocks are typically used when creating horizontal
+              navigation menu links.</p>
+      <br>
+
+      <img src="/assets/display-inline-block.PNG" alt="display inline block example image" style="width:500px;height:500px;">
+
+      <img src="/assets/display-inline-block-2.PNG" alt="display inline example block image" style="width:500px;height:500px;">
+
       <br>
       <a href="#">A link goes here</a>
       <br>
@@ -56,10 +78,17 @@
   </section>
   <section id="post-3">
     <article>
-      <h2>Header 2 Subtitle</h2>
+      <h2>display: inline</h2>
       <br>
-      <p>Placeholder text</p>
+      <p>An example of an element that has a default display: inline property is the span element. A limitation of the display:
+      inline element is that it will disregard any width and height values that you might have specified in the element's CSS
+      properties, while respecting margin, padding, and border values. This can cause any user inputted text based entries to
+      fall outside the element's predefined parameters in the space designated for your content.</p>
       <br>
+
+      <img src="/assets/display-inline.PNG" alt="display inline example image" style="width:500px;height:500px;">
+      <br>
+
       <a href="#">A link goes here</a>
       <br>
       <p></p>
@@ -69,7 +98,7 @@
   </section>
   <section id="post-4">
     <article>
-      <h2>Header 2 Subtitle</h2>
+      <h2></h2>
       <br>
       <p>Placeholder text</p>
       <br>
